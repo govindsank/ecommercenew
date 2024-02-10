@@ -1,5 +1,5 @@
-import mongoose from "mongoose";
+import mongoose from "mongoose"
 
-export default function conn() {
+export default function con(){
     return mongoose.connect(process.env.DB_URI);
 }
